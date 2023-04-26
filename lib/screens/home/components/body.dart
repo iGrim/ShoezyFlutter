@@ -41,8 +41,7 @@ class Body extends StatelessWidget {
                       MaterialPageRoute(
                         builder: (context) => DetailsScreen(
                           product: products[index],
-                    ),
-                    ),),
+                    ),),),
                 ),
               ),
             ),

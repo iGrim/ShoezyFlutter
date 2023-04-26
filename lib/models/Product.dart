@@ -23,7 +23,8 @@ List<Product> products = [
     size: 12,
     description: dummyText,
     image: "assets/images/item.png",
-    color: Color(0xFF2079FF),
+    color: Color(0xFF3D82AE),
+    // color: Color(0xFF2079FF),
   ),
   Product(
     id: 2,

@@ -9,7 +9,7 @@ class Categories extends StatefulWidget {
 }
 
 class _CategoriesState extends State<Categories> {
-  List<String> categories = ["Hand Bag", "Jewellery", "Footwear", "Dresses", "Test"];
+  List<String> categories = ["Running", "Tennis", "Fashion", "High-top", "Other"];
   int selectedIndex = 0;
   @override
   Widget build(BuildContext context) {
