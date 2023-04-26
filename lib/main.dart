@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:untitled1/constants.dart';
-import 'package:untitled1/screens/home/home_screen.dart';
+import 'package:shoezy/constants.dart';
+import 'package:shoezy/screens/home/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
