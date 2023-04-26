@@ -1,11 +1,12 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 import '../../../constants.dart';
 import '../../../models/Product.dart';
 
 class ItemCard extends StatelessWidget {
   final Product product;
-  final Function press;
+  final VoidCallback press;
   const ItemCard({super.key,
     required this.product,
     required this.press,
@@ -14,6 +15,7 @@ class ItemCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
+      onTap: press,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
